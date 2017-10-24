@@ -9,7 +9,7 @@ def position_taken?(board, index)
   # end
 
   # Second Solution
-  if board[index] == ""
+  if board[index] == " " || board[index] == ""
     return false
   end
 end
