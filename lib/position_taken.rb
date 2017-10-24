@@ -15,6 +15,7 @@ def position_taken?(board, index)
   #   return true
   # end
 
+  # Third Solution
   (board[index] == " " || board[index] == "" || board[index] == nil) ? false : true
-  
+
 end
